@@ -73,7 +73,5 @@ static const struct arg args[] = {
 	{ ram_perc,       "^c#FFFFFF^ [RAM:🆓 %2s%%]",      NULL     },
 	{ battery_perc,   "^c#8DF08D^ [BAT:🔋 %s%%]",       "BAT0"   },
 	{ datetime,       "^c#26E9BD^ 🕟 %s ",              "%F %T"  },
-
-
 };
 // ifconfig eth0 | grep 'inet ' | awk '{ print $2}'
